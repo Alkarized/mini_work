@@ -13,10 +13,8 @@ class Scratch {
             System.exit(1);
         }
 
-        long x = System.currentTimeMillis();
         counter = countBrackets(str);
-        start2(str);
-        System.out.println(System.currentTimeMillis() - x);
+        System.out.println(start2(str));
     }
 
     //Валидация строки, проверка на ее правильность
